@@ -7,10 +7,10 @@ PROTOCOL
 		@protocol ProtocolName							
 		// list of methods and properties			
 		@end													   							
-																							   								
+	
  3. Protocols can have optional methods					
 	  i.e: all methods need not be used in class implementation.												   		
-															   								
+		
  4. Protocols are also useful in situations where the class of an object isn’t known, or needs to stay hidden.(Anonymity)													
 
 SUBCLASS
