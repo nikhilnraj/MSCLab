@@ -1,9 +1,10 @@
 #import<Foundation/Foundation.h>
 
-@interface Employee:NSObject{
-char name[25];
-char dept[4];
-char ID[10];
+@interface Employee:NSObject
+{
+  char name[25];
+  char dept[4];
+  char ID[10];
 }
 
 -setName:(const char*)name1;
