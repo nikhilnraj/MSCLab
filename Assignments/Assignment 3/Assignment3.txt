@@ -1,0 +1,79 @@
+Name: Nikhil N
+USN: 1PI10IS062
+
+1. DVM instructions: 
+
+1)
+	Instruction name: move (move a register's value)
+	Syntax          : move vA, vB 
+	Example         : move v0, v1 (Moves v1 into v0)
+	   
+2)
+	Instruction name: return-void (Return from a void method)
+	Syntax			: return-void	
+	Example			: return-void
+
+3)
+	Instruction name: goto (Unconditionally jump to the indicated instruction)
+	syntax          : goto +AA
+	Example         : goto 0005  (Jumps to position 0005. 0005 is the label of the target instruction)
+
+4)
+	Instruction name: move wide (Move the contents of one register-pair to another.)
+	syntax          : move-wide/from16 vAA, vBBBB
+	Example         : move-wide/from16 v22, v0 (Moves v0 into v22)
+
+5)
+	Instruction name: throw (Throw the indicated exception.)
+	syntax          : throw vAA
+	Example         : throw v0 (Throws an exception. The exception object reference is in v0)
+		
+6)
+	Instruction name: return (Return from a single-width (32-bit) non-object value-returning method.)
+	syntax          : return vAA
+	Example         : return v0 (Returns with return value in v0)
+   
+2. Differentiate between mobile computing and cloud computing:
+
+	MOBILE COMPUTING:
+	1. It is the ability to use computing capability without a pre-defined location and/or connection to a network to publish and/or 
+	   subscribe to information.
+	2. Need a physical device with you.
+	   This could be a laptop or a mobile phone or some device which enables you to telework-working wherever you go because of the small size 
+	   of the device you're using.
+	3. The mobile cloud focuses on services available through mobile network operators.
+	4. Clients are cell phones.
+	5. Limited processing power, limited transmission power, low bandwidth, and limited battery power.
+
+	CLOUD COMPUTING:
+	1. Cloud computing is an expression used to describe a variety of computing concepts that involve a large number of computers
+	   connected through a real-time communication network such as the Internet
+	2. Allows you to store your files and folders in the "cloud" on the Internet, allowing access to all of your files and folders wherever you are in the world.
+	   But you do need a physical device with Internet access to access it.
+	3. Cloud services are used today to store, manage, and process a wide variety of data applications.
+	4. Clients are computers.
+	5. High processing power,large tranmission power,high bandwidth and  battery power.
+
+3. Give an example of an application simulating an environment of  context aware computing and justify:
+
+  Example:
+  Purple Robot
+  ------------------------------
+
+  Description:
+	
+	Purple Robot is a sensing and scripting application that enables the creation of context-aware behavioral interventions and experiences.
+	Purple Robot includes a full on-device sensor suite as well as embedded scripting environment exposed via an HTTP API that allows 
+	companion apps (native and web-based) full access to the sensor and trigger functionality.
+	
+	Updated:
+	November 5, 2013
+ 
+	Size:
+	5.5M
+ 
+	Current Version:
+	1.4.6
+ 
+	Requires Android:
+	2.2 and up
